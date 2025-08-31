@@ -1,6 +1,6 @@
 # YOLOv8 Object Detection App
 
-This project is a simple Python application for **object detection, training, and model exporting** using [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics).
+This project is a simple Python application for object detection. As dataset I choose Russian military equipment.
 
 It supports three modes:
 
@@ -15,6 +15,7 @@ Requirements
 - Ultralytics YOLOv8
 - OpenCV
 
+USE:
 Once you download files from this repo:
 1. Put your weights and data
    
@@ -51,4 +52,9 @@ notes
 -----
 - press Q to close the detect window
 - runs/ folder will get a lot of graphs and results when you train (thats default in YOLO models)
+  
+Source for dataset:
+https://universe.roboflow.com/capstoneproject/russian-military-vehicles
+
+
 
