@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['bm-21', 'bmd-2', 'bmp-1', 'bmp-2', 'btr-70', 'btr-80', 'mt-lb', 't-64', 't-72', 't-80']
+
+roboflow:
+  workspace: capstoneproject
+  project: russian-military-annotated
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstoneproject/russian-military-annotated/dataset/2
