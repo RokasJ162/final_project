@@ -17,6 +17,11 @@ Requirements
 
 USE:
 Once you download files from this repo:
+
+Access location where you have downloaded the repo files:
+
+cd /where/you/downloaded/files/
+
 1. Put your weights and data
    
 - put your trained model (best.pt) inside models/ folder
